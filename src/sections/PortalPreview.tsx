@@ -112,7 +112,7 @@ export function PortalPreview() {
                   className="flex flex-wrap gap-x-5 gap-y-2 border-t border-slate-100 pt-5 text-xs text-muted"
                 >
                   <span className="inline-flex items-center gap-1.5"><Phone className="h-3.5 w-3.5 text-primary" /> +1 (555) 010-2210</span>
-                  <span className="inline-flex items-center gap-1.5"><Mail className="h-3.5 w-3.5 text-primary" /> admissions@wirtu.edu</span>
+                  <span className="inline-flex items-center gap-1.5"><Mail className="h-3.5 w-3.5 text-primary" />schoolName@gmail.com</span>
                   <span className="inline-flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5 text-primary" /> 12 Academy Road</span>
                 </motion.div>
               </motion.div>

@@ -8,7 +8,7 @@ const TESTIMONIALS = [
     quote:
       "We went from piles of paper forms to a branded portal in one afternoon. Parents love it, and my team finally has one place to review everything.",
     name: "Adaeze Nwosu",
-    role: "Principal · CollageName College",
+    role: "Principal · Wirtu School",
     initials: "AN",
     color: "bg-emerald-500",
   },

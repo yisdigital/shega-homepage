@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { EASE } from "@/lib/motion";
 import { slugify } from "@/lib/utils";
 
-const EXAMPLES = ["Bright Future Academy", "CollageName College", "Greenfield Central", "Sunrise Montessori"];
+const EXAMPLES = ["Bright Future Academy", "Wirtu School", "Greenfield Central", "Sunrise Montessori"];
 
 function useTypewriter() {
   const [text, setText] = useState("");

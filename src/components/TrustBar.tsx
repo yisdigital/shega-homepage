@@ -1,6 +1,6 @@
 import { GraduationCap } from "lucide-react";
 
-const SCHOOLS = ["Wirtu", "Greenfield", "Sunrise Montessori", "Arcadia", "Bright Future", "Kingsbridge", "Maplewood", "Crestview"];
+const SCHOOLS = ["CollageName", "Greenfield", "Sunrise Montessori", "Arcadia", "Bright Future", "Kingsbridge", "Maplewood", "Crestview"];
 
 export function TrustBar() {
   return (

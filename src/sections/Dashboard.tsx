@@ -54,7 +54,7 @@ export function Dashboard() {
                 <span className="grid h-7 w-7 place-items-center rounded-lg bg-[var(--gradient-glow)] text-xs font-bold text-white">
                   W
                 </span>
-                Wirtu College · Admissions
+                CollageName College · Admissions
               </span>
               <span className="flex items-center gap-2 text-xs font-medium text-muted">
                 <span className="relative flex h-2 w-2">

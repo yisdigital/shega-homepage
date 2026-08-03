@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 const WORKFLOW = [
   { icon: Building2, label: "School", desc: "registered · Admin" },
   { icon: Globe, label: "Portal Generated", desc: "subdomain live" },
-  { icon: Globe, label: "wirtu.shegaschool.com", desc: "branded & secure" },
+  { icon: Globe, label: "schoolName.shegaschool.com", desc: "branded & secure" },
   { icon: UserPlus, label: "Parent Registration", desc: "student profile" },
   { icon: FileText, label: "Application Received", desc: "in your inbox" },
   { icon: Check, label: "Approved", desc: "ready to enroll" },

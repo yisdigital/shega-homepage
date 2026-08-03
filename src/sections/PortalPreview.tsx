@@ -33,7 +33,7 @@ export function PortalPreview() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.6, duration: 0.4 }}
                 >
-                  wirtu.shegaschool.com
+                  CollageName.shegaschool.com
                 </motion.span>
               </div>
               <div className="h-5 w-5" aria-hidden />
@@ -59,7 +59,7 @@ export function PortalPreview() {
                     <GraduationCap className="h-5 w-5" />
                   </span>
                   <div>
-                    <p className="font-display text-base font-bold text-ink">Wirtu College</p>
+                    <p className="font-display text-base font-bold text-ink">Some College</p>
                     <p className="text-xs text-muted">Admissions portal · 2026 intake</p>
                   </div>
                 </motion.div>
@@ -72,7 +72,7 @@ export function PortalPreview() {
                     transition={{ delay: 0.4, duration: 0.5, ease: EASE }}
                     className="text-2xl font-bold leading-tight text-ink"
                   >
-                    Welcome to Wirtu College.
+                    Welcome to CollageName College.
                     <br />
                     Begin your admission today.
                   </motion.h3>
@@ -112,7 +112,7 @@ export function PortalPreview() {
                   className="flex flex-wrap gap-x-5 gap-y-2 border-t border-slate-100 pt-5 text-xs text-muted"
                 >
                   <span className="inline-flex items-center gap-1.5"><Phone className="h-3.5 w-3.5 text-primary" /> +1 (555) 010-2210</span>
-                  <span className="inline-flex items-center gap-1.5"><Mail className="h-3.5 w-3.5 text-primary" /> admissions@wirtu.edu</span>
+                  <span className="inline-flex items-center gap-1.5"><Mail className="h-3.5 w-3.5 text-primary" /> admissions@CollageName.edu</span>
                   <span className="inline-flex items-center gap-1.5"><MapPin className="h-3.5 w-3.5 text-primary" /> 12 Academy Road</span>
                 </motion.div>
               </motion.div>

@@ -1,39 +1,39 @@
 import { motion } from "framer-motion";
-import { FileCheck2, Palette, Smartphone, Zap, ClipboardList, ShieldCheck } from "lucide-react";
+import { LayoutGrid, Palette, Users, Zap, ShieldCheck, BarChart3 } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { GlowOrb } from "@/components/Backgrounds";
 import { EASE } from "@/lib/motion";
 
 const BENEFITS = [
   {
-    icon: FileCheck2,
-    title: "Paperless admissions",
-    desc: "Go digital end-to-end. Collect and review every application online — no paperwork, no lost forms.",
+    icon: LayoutGrid,
+    title: "All-in-one platform",
+    desc: "Admissions, academics, billing, and communication in one connected system — no more juggling separate apps.",
   },
   {
     icon: Palette,
     title: "Custom branding",
-    desc: "Your logo, your colors, your name on a portal that feels unmistakably your school.",
+    desc: "Your logo, your colors, your name across the portal and every module. It feels unmistakably your school.",
   },
   {
-    icon: Smartphone,
-    title: "Mobile friendly",
-    desc: "Parents apply from any device. The portal is beautifully responsive from day one.",
+    icon: Users,
+    title: "Built for every role",
+    desc: "Admins, teachers, parents, and students each get a view tailored to what they need — nothing more, nothing less.",
   },
   {
     icon: Zap,
     title: "Fast setup",
-    desc: "Go live in minutes. Create your account and your branded portal is generated automatically.",
-  },
-  {
-    icon: ClipboardList,
-    title: "Application tracking",
-    desc: "Review, organize, and approve applications from a clean, focused admin dashboard.",
+    desc: "Go live in minutes. Create your account and your branded system is generated automatically.",
   },
   {
     icon: ShieldCheck,
     title: "Secure cloud platform",
-    desc: "Every portal is SSL secured and hosted on a reliable, privacy-first cloud infrastructure.",
+    desc: "Every module is SSL secured and hosted on a reliable, privacy-first cloud infrastructure.",
+  },
+  {
+    icon: BarChart3,
+    title: "Insightful analytics",
+    desc: "Live reports across enrollment, grades, attendance, and finance — so you can lead with data.",
   },
 ];
 
@@ -45,8 +45,8 @@ export function Benefits() {
       <div className="container-px relative">
         <SectionHeading
           eyebrow="Why ShegaSchool"
-          title="Everything you need. Nothing you don't."
-          description="Focused tools built for one job — modern, online school registration."
+          title="Everything your school needs. Nothing you don't."
+          description="One connected ERP that runs your school end to end — modern admissions included."
         />
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

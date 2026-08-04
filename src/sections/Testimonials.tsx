@@ -6,7 +6,7 @@ import { EASE } from "@/lib/motion";
 const TESTIMONIALS = [
   {
     quote:
-      "We went from piles of paper forms to a branded portal in one afternoon. Parents love it, and my team finally has one place to review everything.",
+      "We went from piles of paper forms to a branded portal in one afternoon — and the same system now runs our gradebook, attendance, and billing. One platform, zero chaos.",
     name: "Adaeze Nwosu",
     role: "Principal · Wirtu School",
     initials: "AN",
@@ -14,7 +14,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Setting up our subdomain took minutes, not weeks. The branding looked like an agency built it — parents kept complimenting how professional it felt.",
+      "Setting up our subdomain took minutes, not weeks. Then we switched on the other modules — fees, results, attendance — and the whole school finally lives in one place.",
     name: "Michael Adebayo",
     role: "Admissions Officer · Greenfield Central",
     initials: "MA",
@@ -22,7 +22,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "I stopped getting calls asking 'did you receive my form?' Parents track their own application status now. It freed up so much of our staff's time.",
+      "I stopped getting calls asking 'did you receive my form?' Parents track their own application status now — and the same login shows them results and fee invoices.",
     name: "Sarah Kimani",
     role: "Head of Admissions · Sunrise Montessori",
     initials: "SK",
@@ -37,7 +37,7 @@ export function Testimonials() {
         <SectionHeading
           eyebrow="Testimonials"
           title="Loved by schools who believed done was impossible"
-          description="Real admissions teams now run their entire application season on ShegaSchool."
+          description="Real schools now run admissions, academics, and finance on ShegaSchool."
         />
 
         <div className="mt-16 grid gap-6 md:grid-cols-3">

@@ -11,9 +11,9 @@ export function PortalPreview() {
       <GridBackground className="h-[360px]" />
       <div className="container-px relative">
         <SectionHeading
-          eyebrow="Portal preview"
+          eyebrow="Parents portal"
           title="What parents see when they open your link"
-          description="A clean, mobile-friendly admission portal carrying your school's brand — every single time."
+          description="A clean, mobile-friendly admissions portal carrying your school's brand — part of a system where families also track grades, attendance, and fees."
         />
 
         <Reveal className="mx-auto mt-14 max-w-5xl">

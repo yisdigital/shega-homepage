@@ -5,6 +5,7 @@ import { Footer } from "@/components/Footer";
 import { Hero } from "@/sections/Hero";
 import { TrustBar } from "@/components/TrustBar";
 import { HowItWorks } from "@/sections/HowItWorks";
+import { Modules } from "@/sections/Modules";
 import { PortalGenerator } from "@/sections/PortalGenerator";
 import { PortalPreview } from "@/sections/PortalPreview";
 import { Benefits } from "@/sections/Benefits";
@@ -53,6 +54,7 @@ export default function App() {
         <Hero />
         <TrustBar />
         <HowItWorks />
+        <Modules />
         <PortalGenerator />
         <PortalPreview />
         <Benefits />

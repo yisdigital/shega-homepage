@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { UserPlus, Globe, Palette, Link2, MessageSquare, Inbox } from "lucide-react";
+import { UserPlus, Globe, Database, Users, LayoutGrid, Rocket } from "lucide-react";
 import { SectionHeading } from "@/components/SectionHeading";
 import { GridBackground } from "@/components/Backgrounds";
 import { EASE } from "@/lib/motion";
@@ -8,32 +8,32 @@ const STEPS = [
   {
     icon: UserPlus,
     title: "School registers",
-    desc: "Create your free account in under two minutes — no code, no technical setup.",
+    desc: "Create your account in under two minutes — no code, no technical setup.",
   },
   {
     icon: Globe,
-    title: "Portal is created",
-    desc: "We auto-generate a dedicated subdomain for your school instantly.",
+    title: "Your system is created",
+    desc: "We auto-generate a dedicated subdomain and workspace for your school instantly.",
   },
   {
-    icon: Palette,
-    title: "Customize branding",
-    desc: "Add your logo, school name, colors, and contact details to make it yours.",
+    icon: Database,
+    title: "Add your school's data",
+    desc: "Import students, staff, classes, and fees — or start fresh and add as you go.",
   },
   {
-    icon: Link2,
-    title: "Share the link",
-    desc: "Send your branded portal URL to parents via email, SMS, or social.",
+    icon: Users,
+    title: "Invite your team",
+    desc: "Admins, teachers, and parents get secure logins tailored to their role.",
   },
   {
-    icon: MessageSquare,
-    title: "Parents register",
-    desc: "Families open only your portal to submit complete student applications.",
+    icon: LayoutGrid,
+    title: "Turn on the modules",
+    desc: "Admissions, gradebook, attendance, billing — switch on whichever you need.",
   },
   {
-    icon: Inbox,
-    title: "Applications arrive",
-    desc: "Review, track, and approve every application from your admin dashboard.",
+    icon: Rocket,
+    title: "Run your school",
+    desc: "Every department works from one connected dashboard, with data that flows together.",
   },
 ];
 
@@ -44,8 +44,8 @@ export function HowItWorks() {
       <div className="container-px relative">
         <SectionHeading
           eyebrow="How it works"
-          title="From signup to applications — in a few steps"
-          description="No templates. No waiting. You'll be live with your own branded admission portal the same day."
+          title="From signup to a running school — in a few steps"
+          description="Start with admissions or switch on the full suite. Either way, your whole school lives in one system from day one."
         />
 
         <div className="relative mt-16">

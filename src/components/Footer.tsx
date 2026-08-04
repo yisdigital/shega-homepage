@@ -4,11 +4,11 @@ import { Github, Twitter, Linkedin } from "lucide-react";
 const COLUMNS = [
   {
     title: "Product",
-    links: ["How it works", "Portal generator", "Parents portal", "Admin dashboard", "Pricing"],
+    links: ["How it works", "School ERP", "Admissions portal", "Parents portal", "Admin dashboard"],
   },
   {
     title: "For Schools",
-    links: ["Features", "Security", "Support", "Branding", "Roadmap"],
+    links: ["Features", "Security", "Support", "Branding", "Pricing"],
   },
   {
     title: "Company",
@@ -26,8 +26,8 @@ export function Footer() {
           <div>
             <Logo />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted">
-              The online admission platform for modern schools. Create a branded registration portal and let parents
-              apply from anywhere.
+              The full school ERP for modern schools. Run admissions, academics, attendance, and finance from one
+              connected platform.
             </p>
             <div className="mt-6 flex gap-3">
               {SOCIALS.map((Icon, i) => (

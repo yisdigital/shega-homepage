@@ -7,12 +7,12 @@ import { EASE, fadeUp } from "@/lib/motion";
 import { cn } from "@/lib/utils";
 
 const WORKFLOW = [
-  { icon: Building2, label: "School", desc: "registered · Admin" },
-  { icon: Globe, label: "Portal Generated", desc: "subdomain live" },
+  { icon: Building2, label: "School registers", desc: "admin account created" },
+  { icon: Globe, label: "System generated", desc: "subdomain live" },
   { icon: Globe, label: "schoolName.shegaschool.com", desc: "branded & secure" },
-  { icon: UserPlus, label: "Parent Registration", desc: "student profile" },
-  { icon: FileText, label: "Application Received", desc: "in your inbox" },
-  { icon: Check, label: "Approved", desc: "ready to enroll" },
+  { icon: UserPlus, label: "Admissions module", desc: "parents apply online" },
+  { icon: FileText, label: "Applications reviewed", desc: "from one dashboard" },
+  { icon: Check, label: "School runs on ShegaSchool", desc: "grades, fees, attendance" },
 ];
 
 function Workflow() {
@@ -134,7 +134,7 @@ function Workflow() {
       >
         <span className="flex items-center gap-2 text-sm font-semibold text-ink">
           <Sparkles className="h-4 w-4 text-primary" />
-          Portal ready
+          System ready
         </span>
         <span className="text-xs font-medium text-muted">
           <span className="font-semibold text-green-600">224</span> applications this cycle
@@ -156,7 +156,7 @@ export function Hero() {
           <motion.div variants={fadeUp} initial="hidden" animate="visible" custom={0}>
             <span className="inline-flex items-center gap-2 rounded-full border border-emerald-200 bg-emerald-50/80 px-3.5 py-1.5 text-[13px] font-medium text-primary">
               <Sparkles className="h-3.5 w-3.5" />
-              Multi-tenant school admissions, simplified
+              The complete school ERP
             </span>
           </motion.div>
 
@@ -167,15 +167,15 @@ export function Hero() {
             custom={1}
             className="mt-6 max-w-xl text-balance text-[2.6rem] font-bold leading-[1.05] text-ink sm:text-6xl md:text-[4.15rem]"
           >
-            Launch your school&rsquo;s{" "}
+            Run your entire school on{" "}
             <span className="relative inline-block bg-gradient-to-r from-primary-500 via-[#16a34a] to-[#0f9d58] bg-clip-text text-transparent">
-              online registration
-            </span>{" "}
-            portal in minutes.
+              one platform
+            </span>
+            .
           </motion.h1>
 
           <motion.p variants={fadeUp} initial="hidden" animate="visible" custom={2} className="mt-6 max-w-lg text-balance text-lg leading-relaxed text-muted">
-            Create a branded online admission portal for your school and let parents register students from anywhere.
+            ShegaSchool is a full school ERP — admissions, gradebook, attendance, fees, and parent communication in one branded, secure system.
           </motion.p>
 
           <motion.div variants={fadeUp} initial="hidden" animate="visible" custom={3} className="mt-9 flex flex-wrap items-center gap-3.5">
@@ -202,7 +202,7 @@ export function Hero() {
               ))}
             </div>
             <p className="text-sm text-muted">
-              <span className="font-semibold text-ink">1,200+ schools</span> launched their portals
+              <span className="font-semibold text-ink">1,200+ schools</span> run their school on ShegaSchool
             </p>
           </motion.div>
         </div>
@@ -216,7 +216,7 @@ export function Hero() {
           <div className="glass relative rounded-[2rem] border border-white/60 p-5 shadow-lift">
             <div className="mb-4 flex items-center justify-between px-1">
               <span className="text-sm font-semibold text-ink">Your school&rsquo;s journey</span>
-              <span className="text-xs font-medium text-muted">live preview</span>
+              <span className="text-xs font-medium text-muted">admissions module</span>
             </div>
             <Workflow />
           </div>

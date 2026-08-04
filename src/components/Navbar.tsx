@@ -8,8 +8,8 @@ import { EASE } from "@/lib/motion";
 
 const LINKS = [
   { label: "How it works", href: "#how-it-works" },
+  { label: "Modules", href: "#modules" },
   { label: "Portal", href: "#portal" },
-  { label: "Benefits", href: "#benefits" },
   { label: "Dashboard", href: "#dashboard" },
   { label: "Testimonials", href: "#testimonials" },
 ];

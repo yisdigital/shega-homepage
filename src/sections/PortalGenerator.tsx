@@ -67,7 +67,7 @@ function GenerateButton() {
       {state === "done" && (
         <>
           <Check className="h-4 w-4" />
-          Portal live
+          System live
         </>
       )}
     </Button>
@@ -95,9 +95,9 @@ export function PortalGenerator() {
     <section id="portal" className="relative overflow-hidden py-24 md:py-32">
       <div className="container-px relative">
         <SectionHeading
-          eyebrow="Portal generator"
-          title="Your subdomain, generated instantly"
-          description="Type a school name and watch your very own branded registration portal come to life."
+          eyebrow="Admissions module"
+          title="Your school's portal, generated instantly"
+          description="Type a school name and watch your branded admissions portal come to life — the front door to your entire school system."
         />
 
         <Reveal className="mx-auto mt-14 max-w-2xl">
@@ -162,7 +162,7 @@ export function PortalGenerator() {
                       <Check className="h-4 w-4 text-green-600" /> SSL secured
                     </span>
                     <span className="inline-flex items-center gap-1.5">
-                      <Check className="h-4 w-4 text-green-600" /> Ready to share
+                      <Check className="h-4 w-4 text-green-600" /> Connects to your ERP
                     </span>
                   </div>
                 </motion.div>

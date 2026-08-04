@@ -67,12 +67,12 @@ export function FinalCTA() {
           </span>
 
           <h2 className="mt-7 text-balance text-4xl font-bold leading-[1.08] text-white sm:text-5xl md:text-6xl">
-            Your school&rsquo;s portal is <span className="text-accent">minutes away.</span>
+            Your entire school, <span className="text-accent">minutes away.</span>
           </h2>
 
           <p className="mt-5 max-w-xl text-balance text-lg leading-relaxed text-emerald-50/85">
-            Join thousands of schools running modern, paperless admissions. Create your account and get your branded
-            portal today.
+            Join thousands of schools running admissions, academics, and finance on one connected ERP. Create your
+            account and get your branded system today.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center justify-center gap-3.5">

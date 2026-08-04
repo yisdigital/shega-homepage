@@ -41,9 +41,9 @@ export function Dashboard() {
       <GlowOrb className="left-[10%] top-10 h-[320px] w-[320px] opacity-40" />
       <div className="container-px relative">
         <SectionHeading
-          eyebrow="Admin dashboard"
+          eyebrow="Admissions module"
           title="Every application, one calm view"
-          description="Your team reviews and approves applications from a clean dashboard — no spreadsheets, no guesswork."
+          description="Your team reviews and approves applications from a clean dashboard — the same system that later runs grades, attendance, and fees."
         />
 
         <Reveal className="mx-auto mt-16 max-w-6xl">
